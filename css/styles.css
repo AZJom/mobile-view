@@ -133,6 +133,17 @@ footer {
         align-items: center;
         justify-content: center;
     }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    footer {
+        margin-top: auto;
+        margin-bottom: 10px;
+    }
     
     h1 {
         text-align: center;
