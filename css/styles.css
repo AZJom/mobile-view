@@ -28,9 +28,8 @@ header {
 }
 
 nav a {
-    text-decoration: none;
-    color: #333; 
-    font-weight: bold;
+    color: #333;
+    font-weight: normal;
 }
 
 main {
@@ -49,8 +48,8 @@ main {
 
 
 h1 {
-    margin-bottom: 30px;
-    color: #e67e22;
+    color: #ff9900; /* Adjusted color to meet contrast ratio */
+    font-weight: normal; 
 }
 
 main h1 {
@@ -69,7 +68,7 @@ main h1 {
 }
 
 nav a.active {
-    color: #e67e22; 
+    color: #ff9900;
     font-weight: bold; 
     text-decoration: underline;
 }
