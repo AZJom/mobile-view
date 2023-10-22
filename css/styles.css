@@ -22,14 +22,14 @@ nav ul li {
 }
 
 header {
-    background-color: #f2f2f2; /* Adjusted background color for better contrast */
-    color: #333; /* Adjusted font color for better contrast */
+    background-color: #f2f2f2; 
+    color: #333; 
     padding: 10px;
 }
 
 nav a {
     text-decoration: none;
-    color: #333; /* Adjusted link color for better contrast */
+    color: #333; 
     font-weight: bold;
 }
 
