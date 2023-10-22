@@ -106,10 +106,9 @@ footer {
     left: 10px;
     z-index: 1000;
     position: absolute;
-    color: #e67e22;
+    color: black;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
 }
 
 @media (prefers-reduced-motion: reduce) {
