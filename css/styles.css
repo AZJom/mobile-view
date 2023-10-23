@@ -134,3 +134,8 @@ footer {
     }
 }
 
+@media (min-width: 768px) {
+    .skip-link {
+        display: block; /* Show the skip to main link for viewport widths greater than 768px */
+    }
+}
