@@ -15,12 +15,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    position: relative;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
+    margin-top: 40px; /* Adjusted margin to make space for the skip link */
 }
 
 nav ul li {
@@ -112,13 +114,13 @@ footer {
 
 .skip-link {
     top: 10px;
-    left: 10px;
-    z-index: 1000;
+    left: 2px;
+    font-size: small;
     position: absolute;
     color: #000000;
     text-decoration: none;
-    border-radius: 5px;
-    
+    border-radius: 10px;
+    z-index: 1000;
 }
 
 @media (prefers-reduced-motion: reduce) {
