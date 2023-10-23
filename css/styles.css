@@ -121,6 +121,7 @@ footer {
     text-decoration: none;
     border-radius: 10px;
     z-index: 1000;
+    display: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
